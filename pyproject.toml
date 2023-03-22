@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "book_shop"
+version = "0.0"
+description = ""
+authors = ["Danila"]
+
+[tool.poetry.dependencies]
+python = "3.8.10"
+psycopg2-binary = "^2.9.5"
+fastapi = "^0.95.0"
+uvicorn = "^0.21.1"
+pydantic = "^1.10.6"
+pytest = "^7.2.2"
+python-dotenv = "^1.0.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
